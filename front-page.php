@@ -5,13 +5,12 @@
                 <div class="home-Hero">
                     <div class="home-Hero_Inner">
                         <p class="home-Hero_Txt">
-                            にゃんすけ店長がお迎えする<br>ゆったり癒しの美容室
-                            <span>20XX.XX DEMO OPEN</span>
+                            青森県青森市を拠点とし活動する<br>唯一無二のさをり工房
                         </p>
                     </div>
                 </div>
                 <section class="home-News">
-                    <h2 class="home-News_Title">お知らせ<span>News &amp; Topics</span></h2>
+                    <h2 class="home-News_Title">新着記事</h2>
                     <div class="row justify-content-center">
                         <div class="col-lg-10">
                             <?php 

@@ -6,10 +6,6 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta name="description" content="<?php bloginfo( 'description' ); ?>">
-    <!-- <title>Kuroneko Hair</title> -->
-    <!-- <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+JP:wght@500&display=swap" rel="stylesheet"> -->
-    <!-- <link href="<?php echo esc_url(get_template_directory_uri()); ?>/assets/css/theme-styles.css" rel="stylesheet" media="all"> -->
-    <!-- <script src="https://code.jquery.com/jquery-3.5.1.min.js"></script> -->
     <?php wp_head();?>
 </head>
 <body <?php body_class();?>>
@@ -18,9 +14,9 @@
         <header role="banner" class="header">
             <h1 class="header-SiteName">
                 <a href="<?php echo esc_url(home_url()); ?>" class="header-SiteName_Link">
-                    <img src="<?php echo esc_url(get_template_directory_uri()); ?>/assets/img/logo.png" alt="<?php bloginfo( 'name' )?>">
+                    <img src="<?php echo esc_url(get_template_directory_uri()); ?>/assets/img/osa4.png" alt="<?php bloginfo( 'name' )?>">
                 </a>
-                <span class="header-Tagline">ゆったり時間と癒しの美容室サンプルサイト</span>
+                <span class="header-Tagline">いのちが活きる、着るアート。</span>
             </h1>
             <nav class="header-Nav">
                 <button type="button" class="header-NavToggle" aria-controls="global-Nav" aria-expanded="false" aria-label="メニュー開閉">
