@@ -4,7 +4,8 @@ function osakobo_theme_setup() {
     add_theme_support( 'post-thumbnails' );
     add_theme_support( 'html5', array('search-form') );
     add_image_size( 'page_eyechatch', 1000, 610, true );
-    add_image_size( 'archive_thumbnail', 200, 150, true );
+    // add_image_size( 'archive_thumbnail');
+    add_image_size( 'archive_thumbnail', 426, 240, true );
     register_nav_menu( 'main-menu', 'メインメニュー' );
 }
 add_action( 'after_setup_theme', 'osakobo_theme_setup');
@@ -34,29 +35,29 @@ function osakobo_enqueue_scripts(){
 }
 add_action( 'wp_enqueue_scripts', 'osakobo_enqueue_scripts' );
 
-function osakobo_widgets_init(){
+// function osakobo_widgets_init(){
 
-    register_sidebar( 
-        array(
-            'name'=>'サイドバー',
-            'id'=>'sidebar-widget-area',
-            'description'=>'投稿、固定ページのサイドバー',
-            'before_widget'=>'<div id="%1$s" class="%2$s">',
-            'after_widget'=>'<?div>',
-        )
-    );
+//     register_sidebar( 
+//         array(
+//             'name'=>'サイドバー',
+//             'id'=>'sidebar-widget-area',
+//             'description'=>'投稿、固定ページのサイドバー',
+//             'before_widget'=>'<div id="%1$s" class="%2$s">',
+//             'after_widget'=>'<?div>',
+//         )
+//     );
 
-    register_sidebars( 3, 
-    array(
-        'name'=>'フッター%s',
-        'id'=>'footer-widget-area',
-        'description'=>'フッターのサイドバー',
-        'before_widget'=>'<div id="%1$s" class="%2$s">',
-        'after_widget'=>'</div>',
-    )
-    );
-}
-add_action( 'widgets_init','osakobo_widgets_init' );
+//     register_sidebars( 3, 
+//     array(
+//         'name'=>'フッター%s',
+//         'id'=>'footer-widget-area',
+//         'description'=>'フッターのサイドバー',
+//         'before_widget'=>'<div id="%1$s" class="%2$s">',
+//         'after_widget'=>'</div>',
+//     )
+//     );
+// }
+// add_action( 'widgets_init','osakobo_widgets_init' );
 
 function osakobo_brock_setup(){
     add_theme_support( 'wp-block-styles' );

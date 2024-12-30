@@ -14,11 +14,11 @@
                                     <ul class="module-Article_Item_Meta">
                                         <!-- <li class="module-Article_Item_Cat">お知らせ</li> -->
                                          <?php
-                                         $neko_category_list=get_the_category(  );
-                                         if ($neko_category_list):
+                                         $category_list=get_the_category(  );
+                                         if ($category_list):
                                         ?>
                                         <li class="module-Article_Item_Cat">
-                                            <?php echo esc_html( $neko_category_list[0]->name ); ?>
+                                            <?php echo esc_html( $category_list[0]->name ); ?>
                                         </li>
                                         <?php endif; ?>
 

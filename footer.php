@@ -21,7 +21,7 @@
                 </div>
             </div>
             <p class="footer-Copyright">
-                <small>&copy; 2021 Kuroneko Hair Sample </small>
+                <small>&copy; 2024  </small>
             </p>
         </footer>
     </div>
