@@ -16,10 +16,10 @@
                                 <div class="content-Meta">
                                      <?php the_category( ',' ); ?>
                                     <?php
-                                    $neko_post_year = get_the_date('Y');
-                                    $neko_post_month = get_the_date('m');
+                                    $osakobo_post_year = get_the_date('Y');
+                                    $osakobo_post_month = get_the_date('m');
                                     ?>
-                                    <a href="<?php echo get_month_link( $neko_post_year, $neko_post_month ) ?>" class="content-Meta_Date">
+                                    <a href="<?php echo get_month_link( $osakobo_post_year, $osakobo_post_month ) ?>" class="content-Meta_Date">
                                         <time datetime="<?php echo get_the_date('Y-m-d'); ?>"><?php echo get_the_date(); ?></time>
                                     </a>
                                 </div>

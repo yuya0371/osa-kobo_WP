@@ -34,6 +34,7 @@ html {
 	padding-left: 15px;
 	margin-right: auto;
 	margin-left: auto;
+	background-color:#1f2f40;
 }
 
 .row {
@@ -726,6 +727,7 @@ input[type="button"]::-webkit-search-decoration {
 
 .content-Wrap {
 	position: relative;
+	background-color: #1f2f40;
 }
 
 .container-fluid {
@@ -734,11 +736,12 @@ input[type="button"]::-webkit-search-decoration {
 
 .header {
 	padding-top: 15px;
+	background-color: #1f2f40;
 }
 
 .header-SiteName {
 	margin-left: 15px;
-	margin-bottom: 15px;
+	/* margin-bottom: 15px; */
 }
 
 .header-SiteName_Link {
@@ -892,6 +895,8 @@ body.is-DrawerActive .header-Nav {
 	text-align: center;
 	padding-top: 15px;
 	padding-bottom: 30px;
+	color: #dde2e5;
+
 }
 
 .breadCrumb {
@@ -1941,6 +1946,7 @@ ul.wp-block-social-links a {
 
 .content-Title {
 	font-size: 1.875rem;
+	color: #dde2e5;
 }
 
 .content-SubTitle {
@@ -1958,13 +1964,13 @@ ul.wp-block-social-links a {
 }
 
 .content-Meta {
-	color: #767268;
+	color: #dde2e5;
 	font-size: 0.875rem;
 }
 
 .content-Meta a {
 	text-decoration: none;
-	color: #767268;
+	color: #dde2e5;
 	display: inline-block;
 	margin-top: 15px;
 }
@@ -2006,6 +2012,7 @@ ul.wp-block-social-links a {
 .content-Body dl,
 .content-Body figure {
 	margin-bottom: 1.5em;
+	color: #dde2e5;
 }
 
 .content-Body h2 {
@@ -2061,7 +2068,7 @@ ul.content-Tags {
 }
 
 .content-Nav {
-	color: #767268;
+	color: #dde2e5;
 	border-top: 1px dotted #D5D1CA;
 	margin-top: 30px;
 	margin-bottom: 30px;
@@ -2070,7 +2077,7 @@ ul.content-Tags {
 
 .content-Nav a {
 	text-decoration: none;
-	color: #767268;
+	color: #dde2e5;
 }
 
 .content-Nav a:hover,
